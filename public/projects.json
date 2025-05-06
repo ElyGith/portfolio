@@ -2,21 +2,21 @@
     {
         "title": "Portfolio",
         "description": "Un site web pour mon portfolio crée avec NextJS",
-        "link": ""
+        "link": "https://github.com/ElyGith/portfolio"
     },
     {
-        "title": "Playstore :Analyse",
+        "title": "Playstore : Analyse",
         "description": "Un projet d'analyse de données de Playstore, avec du SQL et du python",
-        "link": "z"
+        "link": "https://github.com/ElyGith/playstore"
     },
     {
         "title": "Magic : Analyse des prix",
         "description": "Une application web pour l'analyse des prix des cartes de Magic, avec Flask, Javascript et python pour la partie analyse de donnnées",
-        "link": "z"
+        "link": ""
     },
     {
         "title": "Morpion",
         "description": "Un jeu de Morpion construit en React basé sur la Documentation officielle de React",
-        "link": "z"
+        "link": "https://github.com/ElyGith/morpion"
     }
 ]

@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
-interface BeamPath {
+export interface BeamPath {
   path: string;
   gradientConfig: {
     initial: {
@@ -22,7 +22,7 @@ interface BeamPath {
     transition?: {
       duration?: number;
       repeat?: number;
-      repeatType?: string;
+      repeatType?: "reverse" | "loop" | "mirror";
       ease?: string;
       repeatDelay?: number;
       delay?: number;
@@ -35,7 +35,7 @@ interface BeamPath {
   }>;
 }
 
-interface PulseBeamsProps {
+export interface PulseBeamsProps {
   children?: React.ReactNode;
   className?: string;
   background?: React.ReactNode;
@@ -65,7 +65,7 @@ export const PulseBeams = ({
   return (
     <div
       className={cn(
-        "w-full h-screen relative flex items-center justify-center antialiased overflow-hidden",
+        "relative w-full min-h-[60vh] flex items-center justify-center overflow-hidden",
         className
       )}
     >
@@ -85,7 +85,22 @@ export const PulseBeams = ({
   );
 };
 
-const SVGs = ({ beams, width, height, baseColor, accentColor, gradientColors }) => {
+
+
+type SVGsProps = {
+  beams: BeamPath[];
+  width: number;
+  height: number;
+  baseColor: string;
+  accentColor: string;
+  gradientColors?: {
+    start: string;
+    middle: string;
+    end: string;
+  };
+};
+
+const SVGs : React.FC<SVGsProps> = ({ beams, width, height, baseColor, accentColor, gradientColors }) => {
   return (
     <svg
       width={width}

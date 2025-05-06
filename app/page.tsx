@@ -1,13 +1,9 @@
-import Image from "next/image"
 import {Header} from "./_components/Header";
 import { Footer } from "./_components/Footer";
-import {CarouselProjects} from "./_components/Carousels";
-import { Mail, Github, Linkedin } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import {CarouselProjects} from "./_components/Carousels"
 import React from "react";
 import { Hero } from "./_components/Hero";
 import { Section } from "./_components/Section";
-import { Contact } from "./_components/Contact";
 import { About } from "./_components/About";
 
 

@@ -6,7 +6,6 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { cn } from "@/lib/utils"
 import * as React from "react"
 import { Button } from "@/components/ui/button"
 

@@ -1,7 +1,4 @@
-import { Section } from "./Section";
-import { PropsWithChildren } from "react";
 import { Button } from "@/components/ui/button"
-import { buttonVariants } from "@/components/ui/button";
 import { GithubIcons } from "./icons/GithubIcons";
 import { Mail_Icons } from "./icons/Mail_Icons";
 import { LinkedinIcons } from "./icons/LinkedinIcons";
