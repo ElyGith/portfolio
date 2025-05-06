@@ -1,3 +1,6 @@
+## About 
+Ce projet est un portfolio fait avec Next.js et déployé avec Vercel. Vous trouverez mes différents projets et des liens vers mes réseaux et mon CV.
+🔗 [Voir le site en ligne](https://ewandeu.vercel.app)
 
 ## Deploy
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/import?s=https://github.com/ElyGith/portfolio)
