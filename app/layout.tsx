@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${osw.variable}`}>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BPVWM1DD3D"></script>
+      </head>
          
       <body className="bg-[hsl(var(--background))] text-[hsl(var(--foreground))]">
         {children}
