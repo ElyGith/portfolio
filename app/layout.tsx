@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
 import "./globals.css";
+import { GoogleTag } from "./_components/GoogleTag"
 
 
 
@@ -22,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${osw.variable}`}>
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BPVWM1DD3D"></script>
+        <GoogleTag/>
       </head>
          
       <body className="bg-[hsl(var(--background))] text-[hsl(var(--foreground))]">
