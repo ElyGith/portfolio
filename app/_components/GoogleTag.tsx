@@ -3,7 +3,7 @@
 import Script from 'next/script';
 
 export function GoogleTag() {
-    const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // Remplacez par votre ID
+    const GA_MEASUREMENT_ID = 'G-BPVWM1DD3D'; // Remplacez par votre ID
 
     return (
         <>
