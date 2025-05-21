@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
 import "./globals.css";
-import { GoogleTag } from "./_components/GoogleTag"
-
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const osw = Oswald({
   variable: "--font-oswald",
@@ -23,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${osw.variable}`}>
       <head>
-        <GoogleTag/>
+        <GoogleAnalytics gaId="G-BPVWM1DD3D"/>
       </head>
          
       <body className="bg-[hsl(var(--background))] text-[hsl(var(--foreground))]">
