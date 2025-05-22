@@ -12,7 +12,7 @@ import { About } from "./_components/About";
 export default function Home() {
   return (
    
-      <main className="min-h-screen flex flex-col">
+      <main className="bg-custom min-h-screen flex flex-col">
       <Header/>
       <Hero/>
       <Section className="flex flex-col items-center gap-6 p-6">
