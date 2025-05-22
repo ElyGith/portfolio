@@ -1,12 +1,16 @@
 'use client';
 
 import { Button } from "@/components/ui/button"
-import { GithubIcons } from "./icons/GithubIcons";
-import { Mail_Icons } from "./icons/Mail_Icons";
 import { Mail, FileUser } from 'lucide-react'
+import { GithubLogo, LinkedinLogo } from "phosphor-react";
+
+/*
 import { LinkedinIcons } from "./icons/LinkedinIcons";
 import { CvIcons } from "./icons/CvIcons";
-import { GithubLogo, LinkedinLogo } from "phosphor-react";
+import { GithubIcons } from "./icons/GithubIcons";
+import { Mail_Icons } from "./icons/Mail_Icons";
+*/
+
 import React from 'react'; 
 
 
