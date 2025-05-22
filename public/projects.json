@@ -15,8 +15,8 @@
         "link": ""
     },
     {
-        "title": "Morpion",
-        "description": "Un jeu de Morpion construit en React basé sur la Documentation officielle de React",
-        "link": "https://github.com/ElyGith/morpion"
+        "title": "To-Do-List",
+        "description": "Une interface pour la gestion des tâches avec authentification OAT. Le projet utilise React pour le front, AdonisJS pour la partie serveur et PostGreSQL comme SGBD",
+        "link": "https://github.com/ElyGith/to-do-list"
     }
 ]

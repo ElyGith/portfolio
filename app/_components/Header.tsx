@@ -1,8 +1,14 @@
+'use client';
+
 import { Button } from "@/components/ui/button"
 import { GithubIcons } from "./icons/GithubIcons";
 import { Mail_Icons } from "./icons/Mail_Icons";
+import { Mail, FileUser } from 'lucide-react'
 import { LinkedinIcons } from "./icons/LinkedinIcons";
 import { CvIcons } from "./icons/CvIcons";
+import { GithubLogo, LinkedinLogo } from "phosphor-react";
+import React from 'react'; 
+
 
 export const Header = () => {
     return (
@@ -18,29 +24,31 @@ export const Header = () => {
                     className="rounded-full object-cover shadow transition-transform duration-300 ease-in-out hover:scale-130"
                 asChild>
                     <a href="mailto:ely.wandeu@hotmail.com" aria-label="Email">
-                        <Mail_Icons size={30}
-                         />
+                        <Mail/>                         
                     </a>
                 </Button>
                 <Button size="icon" variant="ghost" 
                     className="rounded-full object-cover shadow transition-transform duration-300 ease-in-out hover:scale-130"
                 asChild>
                     <a href="https://github.com/ElyGith" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <GithubIcons size={30} />
-                    </a>
-                </Button>
-                <Button size="icon" variant="ghost"
-                    className="rounded-full object-cover shadow transition-transform duration-300 ease-in-out hover:scale-200"
-                asChild>
-                    <a href="https://www.linkedin.com/in/ely-wandeu/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <LinkedinIcons size={14}  />
+                        <GithubLogo size={32} />
+
+
                     </a>
                 </Button>
                 <Button size="icon" variant="ghost"
                     className="rounded-full object-cover shadow transition-transform duration-300 ease-in-out hover:scale-130"
                 asChild>
+                    <a href="https://www.linkedin.com/in/ely-wandeu/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <LinkedinLogo size={32} />
+
+</a>
+                </Button>
+                <Button size="icon" variant="ghost"
+                    className="rounded-full object-cover shadow transition-transform duration-300 ease-in-out hover:scale-130"
+                asChild>
                     <a href="CV_Ely.pdf" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <CvIcons size={30}  />
+                        <FileUser />
                     </a>
                 </Button>
             </div>
@@ -48,3 +56,4 @@ export const Header = () => {
 
     );
 };
+
