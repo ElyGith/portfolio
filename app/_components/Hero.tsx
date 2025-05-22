@@ -1,5 +1,4 @@
 import { Section } from "./Section";
-import Image from "next/image";
 import { PulseBeamsDemo} from "./PulseBeams";
 
 
